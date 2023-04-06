@@ -1,64 +1,39 @@
+/* Estilo do cabeçalho */
+header {
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(51, 50, 50, 0.2);
+  padding: 10px;
+  position:relative;
+}
+
+/* Estilo do menu de navegação */
+nav, li {
+  text-align: right;
+  list-style: none;
+  display: inline-block;
+  margin-left: 10px;
+
+}
+
 /* Estilo do corpo */
 body {
-    background-color: #f2f2f2;
-    font-family: "Helvetica Neue", sans-serif;
+    background-color: #efefef;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  /* Estilo do cabeçalho */
-  header {
-    background-color: #fff;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-    padding: 20px;
-    position:relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-  }
-  
-  /* Estilo do logotipo */
-  header img {
-    height: 50px;
-    width: auto;
-  }
-  
-  /* Estilo do menu de navegação */
-  nav {
-    text-align: right;
-  }
-  
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  nav li {
-    display: inline-block;
-    margin-left: 20px;
-  }
-  
-  nav a {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  /* Estilo das seções */
-  section {
-    background-color: #fff;
-    margin: 20px auto;
-    max-width: 800px;
-    padding: 40px;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-  }
-  
-  /* Estilo do rodapé */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+}
+
+/* Estilo so section */
+section {
+  background-color: #fff;
+  margin: 20px auto;
+  max-width: 900px;
+  padding: 50px;
+}
+
+/* Estilo do rodapé */
+footer {
+  background-color: #6b6868;
+  color: #fff;
+  padding: 20px;
+}
   
