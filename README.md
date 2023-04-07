@@ -1,6 +1,5 @@
 # :student: (Trabalho acadêmico) - Página para empresa FT Maquinas 
 
-#### Link para o [Repositório](https://github.com/IgorFreitasRocha/page-ftmaquinas)
 #### Link para a [página](https://igorfreitasrocha.github.io/page-ftmaquinas/)
 
 ## :dart: Objetivo
