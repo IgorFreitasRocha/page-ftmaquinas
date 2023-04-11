@@ -23,5 +23,9 @@
 - [ ] :date: 26/05/2023 - Entrega do projeto
 
 ## 📝Páginas de referência <br/>
-- https://mocelin.ind.br/home <br/>
-- https://www.sindbombeirocivil.org.br
+- [Mocelin](https://mocelin.ind.br/home)<br/>
+- [Sindicato dos Bombeiros Civis - RJ](https://www.sindbombeirocivil.org.br)
+
+## Consultas
+- [Paleta de Cores](https://paletadecores.com/)
+- [Google Fontes](https://fonts.google.com/)
