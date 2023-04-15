@@ -13,19 +13,19 @@
 ## ⌚️Cronograma
 
 - [x] :date: 31/03/2023 - Criar repositório no GitHub
-- [x] :date: 07/04/2023 - Criar esqueleto do site
+  - [x] Criar esqueleto do site
   - [x] Separar o conteúdo com header, nav, main, section e etc (HTML)
   - [x] Separar o conteúdo visualmente (CSS)
-- [ ] :date: 14/04/2023 - Entrevista com o proprietário da empresa
-- [ ] :date: 21/04/2023 - Desenvolver a página em HTML com menus, descrições e imagens.
+- [ ] :date: 22/04/2023 - Entrevista com o proprietário da empresa
+- [ ] :date: 23/04/2023 - Desenvolver o conteúdo da pagina em HTML com menus, descrições, imagens, contatos e comentários.
 - [ ] :date: 05/05/2023 - Desenvolver o CSS baseado nas referências
-- [ ] :date: 12/05/2023 - Desenvolver novas funcionalidades
-- [ ] :date: 26/05/2023 - Entrega do projeto
+- [ ] :date: 26/05/2023 - Teste e Correções.
+- [ ] :date: 09/06/2023 - Entrega do projeto
 
-## 📝Páginas de referência <br/>
+## 📝 Páginas de referência <br/>
 - [Mocelin](https://mocelin.ind.br/home)<br/>
 - [Sindicato dos Bombeiros Civis - RJ](https://www.sindbombeirocivil.org.br)
 
-## Consultas
+## 🗃 Apoio
 - [Paleta de Cores](https://paletadecores.com/)
 - [Google Fontes](https://fonts.google.com/)
