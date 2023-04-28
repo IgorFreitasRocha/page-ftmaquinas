@@ -28,4 +28,7 @@ footer {
   color: #fff;
   padding: 30px;
 }
-  
+
+#botao-cabecalho{
+  display: inline;
+}
