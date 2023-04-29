@@ -1,34 +1,5 @@
-/* Estilo do cabeçalho */
-header {
-  background-color: #fff;
-  padding: 10px;
+.cabecalho{
+  display: flex;
+  flex-direction: row;
 }
 
-/* Estilo do menu de navegação */
-nav, li {
-  display: inline-block;
-}
-
-/* Estilo do corpo */
-body {
-    background-color: #efefef;
-}
-
-/* Estilo so section */
-section {
-  background-color: #fff;
-  margin: 20px auto;
-  max-width: 900px;
-  padding: 50px;
-}
-
-/* Estilo do rodapé */
-footer {
-  background-color: #6b6868;
-  color: #fff;
-  padding: 30px;
-}
-
-#botao-cabecalho{
-  display: inline;
-}
