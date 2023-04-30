@@ -16,7 +16,7 @@
   - [x] Criar esqueleto do site
   - [x] Separar o conteúdo com header, nav, main, section e etc (HTML)
   - [x] Separar o conteúdo visualmente (CSS)
-- [ ] :date: 22/04/2023 - Entrevista com o proprietário da empresa
+- [x] :date: 22/04/2023 - Entrevista com o proprietário da empresa
 - [ ] :date: 23/04/2023 - Desenvolver o conteúdo da pagina em HTML com menus, descrições, imagens, contatos e comentários.
 - [ ] :date: 05/05/2023 - Desenvolver o CSS baseado nas referências
 - [ ] :date: 26/05/2023 - Teste e Correções.
