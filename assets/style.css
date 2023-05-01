@@ -28,6 +28,7 @@
   font-weight: 300;
   font-size: 14px;
   text-align: justify;
+  margin: 15px;
 
 }
 
@@ -60,9 +61,29 @@ border-style: solid;
   border: 2px solid gray;
 }
 
+.conteudo-clientes{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px 20px;
 
-.logo-empresas-item{
+}
+
+.logo-empresas-parceiras{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px 20px;
+
+}
+
+.logo-img{
+
+}
+
+
+.logo-img-item{
   width: 150px;
-  border-radius: 30%;
+  border-radius: 50%;
   border: 1px solid black;
 }
