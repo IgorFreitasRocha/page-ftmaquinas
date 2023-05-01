@@ -1,5 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+
+*{
+  font-family: 'Merriweather', serif;
+}
+
 .cabecalho{
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
+
+
+.conteudo-titulo{
+  font-weight: 700;
+  font-size: 28px;
+  margin: 20px;
+}
+
+.conteudo-subtitulo{
+  font-weight: 700;
+  font-size: 18px;
+
+}
+
+.conteudo-paragrafo{
+  font-weight: 300;
+  font-size: 14px;
+  text-align: justify;
+
+}
+
+.conteudo-servicos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 10px 20px;
+}
+
+.conteudo-servicos-divisao {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 15px;
+  margin: 10px;
+
+}
+
+.conteudo-servico-titulos{
+border-top: 2px;
+border-color: dimgray;
+border-style: solid;
+}
+
+.conteudo-img{
+  width: 200px;
+  border: 2px solid gray;
+}
+
+
+.logo-empresas-item{
+  width: 150px;
+  border-radius: 30%;
+  border: 1px solid black;
+}
