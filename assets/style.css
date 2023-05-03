@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
 
-*{
-  font-family: 'Merriweather', serif;
-}
-
 .cabecalho{
   display: flex;
   flex-direction: row;
@@ -11,78 +7,51 @@
 }
 
 
+.conteudo h2, h3, p{
+  font-family: 'Merriweather', serif;
+}
 
-.conteudo-titulo{
+.conteudo h2{
   font-weight: 700;
   font-size: 28px;
-  margin: 20px;
+  margin: 1%;
 }
 
-.conteudo-subtitulo{
+.conteudo h3{
   font-weight: 700;
   font-size: 18px;
-
-}
-
-.conteudo-paragrafo{
-  font-weight: 300;
-  font-size: 14px;
-  text-align: justify;
-  margin: 15px;
-
-}
-
-.conteudo-servicos{
-  display: flex;
-  flex-direction: row;
-  gap: 10px 10px;
-}
-
-.conteudo-servicos-divisao {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: flex-start;
-  align-content: flex-start;
-  gap: 15px;
   margin: 10px;
 
 }
 
-.conteudo-servico-titulos{
-border-top: 2px;
-border-color: dimgray;
-border-style: solid;
+.conteudo p{
+  font-weight: 300;
+  font-size: 14px;
+  text-align: justify;
+  margin: 1%;
+}
+
+
+
+.conteudo-servicos-divisao {
+
+  margin: 1%;
+
 }
 
 .conteudo-img{
-  width: 200px;
-  border: 2px solid gray;
+  width: 15%;
 }
 
 .conteudo-clientes{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 10px 20px;
+
 
 }
-
-.logo-empresas-parceiras{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 10px 20px;
-
-}
-
-.logo-img{
-
-}
-
 
 .logo-img-item{
-  width: 150px;
+  width: 10%;
   border-radius: 50%;
   border: 1px solid black;
+  float: left;
+  margin: 10px;
 }
