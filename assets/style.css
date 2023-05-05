@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
 
+
+body{
+  margin: 1% 10% 8% 10%;
+}
+
 .cabecalho{
   display: flex;
   flex-direction: row;
@@ -9,7 +14,6 @@
 
 .conteudo h2, h3, p{
   font-family: 'Merriweather', serif;
-  color: aliceblue;
 }
 
 .conteudo h2{
@@ -47,6 +51,8 @@
   border: 1px solid white;
   width: 500px;
   height: 200px;
+  color: aliceblue;
+
 
 }
 
