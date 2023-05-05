@@ -9,6 +9,7 @@
 
 .conteudo h2, h3, p{
   font-family: 'Merriweather', serif;
+  color: aliceblue;
 }
 
 .conteudo h2{
@@ -40,12 +41,28 @@
 
 .conteudo-servicos-divisao {
 
-  margin: 1%;
+  display: flex;
+  flex-direction: row;
+
+  border: 1px solid white;
+  width: 500px;
+  height: 200px;
+
+}
+
+.conteudo-servicos-divisao h3{
+  text-align: justify;
+}
+
+#conteudo-servico{
+  background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/5875368-fundo-gradiente-azul-escuro-gratis-vetor.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 
 }
 
 .conteudo-img{
-  width: 15%;
+  width: 40%;
 }
 
 .logo-img-item{
