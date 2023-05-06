@@ -1,19 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
 
 
-body{
+body {
   margin: 1% 10%;
+  background-color: beige;
+
+}
+
+
+/* **** SECTION TOPO **** */ 
+.carousel{
+  width: 30%;
 
 
 }
 
 
+/* **** SECTION CABEÇALHO **** */ 
 .cabecalho{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
+
+/* **** ORGANIZAO TEXTOS **** */ 
 
 .conteudo h2, h3, p{
   font-family: 'Merriweather', serif;
@@ -28,6 +39,7 @@ body{
 .conteudo h3{
   font-weight: 700;
   font-size: 18px;
+  margin: 1%;
 
 }
 
@@ -46,26 +58,17 @@ body{
 }
 
 
+/* **** SECTION PRODUTOS **** */ 
 .conteudo-maquinas-img{
   width: 300px;
-}
-.carousel{
-  width: 50%;
-  margin: 1% 20%;
-
-
-}
-
-
-.conteudo-servicos-divisao {
-
-  margin: 1%;
 
 }
 
 .conteudo-img{
-  width: 15%;
+  width: 20%;
+  margin: 1%;
 }
+
 
 .logo-img-item{
   width: 12%;
@@ -75,8 +78,14 @@ body{
   margin: 10px;
 }
 
+/* **** SECTION CLIENTES **** */ 
 
 #conteudo-avaliacoes{
   display: flex;
   flex-direction: column;
+}
+
+.img-cliente{
+  width: 30%;
+  border-radius: 50%;
 }
