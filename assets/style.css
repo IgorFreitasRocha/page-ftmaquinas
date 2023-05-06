@@ -38,20 +38,20 @@ footer{
 .conteudo h2{
   font-weight: 700;
   font-size: 28px;
-  margin: 1%;
+
 }
 
 .conteudo h3{
   font-weight: 700;
   font-size: 18px;
-  margin: 1%;
+
 
 }
 
 .conteudo h4{
   font-weight: 700;
   font-size: 16px;
-  margin: 1%;
+
 
 }
 
@@ -59,7 +59,7 @@ footer{
   font-weight: 300;
   font-size: 14px;
   text-align: justify;
-  margin: 1%;
+
 }
 
 
@@ -71,7 +71,7 @@ footer{
 
 .conteudo-img{
   width: 20%;
-  margin: 1%;
+
 }
 
 
