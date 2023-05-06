@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
 
 
-body {
+header, main{
   margin: 1% 10%;
-  background-color: beige;
-
 }
+
+footer{
+  margin: 1% 10%;
+  background-color: rgb(27, 27, 119);
+}
+
+
 
 
 /* **** SECTION TOPO **** */ 
@@ -74,8 +79,7 @@ body {
   width: 12%;
   border-radius: 50%;
   border: 1px solid black;
-  float: left;
-  margin: 10px;
+
 }
 
 /* **** SECTION CLIENTES **** */ 
@@ -86,6 +90,13 @@ body {
 }
 
 .img-cliente{
-  width: 30%;
+  width: 20%;
   border-radius: 50%;
+}
+
+
+/* **** SECTION RODAPÉ **** */ 
+
+footer{
+  color: antiquewhite;
 }
