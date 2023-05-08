@@ -71,9 +71,26 @@ footer{
 
 }
 
+/* **** SECTION SERVIÇOS **** */ 
+.conteudo-servicos{
+
+  
+}
+
+.conteudo-servicos-divisao{
+
+}
+
+.conteudo-img{
+width: 30%;
+}
+
+
+/* **** SECTION EMPRESAS PARCEIRAS **** */ 
+
 
 .logo-img-item{
-  width: 12%;
+  width: 50%;
   border-radius: 50%;
   border: 1px solid black;
 
