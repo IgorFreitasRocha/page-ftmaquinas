@@ -19,10 +19,38 @@ footer{
 
 
 /* **** SECTION CABEÇALHO **** */ 
-.cabecalho{
+header {
+  background-color: white;
+  height: 80px;
+}
+
+.cabecalho {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  justify-content: flex-end;
+  margin-top: 35px;
+}
+
+.logo-ftmaquinas {
+}
+
+.cabecalho-navegacao {
+  text-decoration: none;
+  justify-content: right;
+  display: flex;
+  margin-top: -130px;
+  gap: 10px;
+  text-decoration: dashed;
+}
+
+.link-nav {
+  text-decoration: none;
+  color: black;
+}
+
+.botao-contato{
+  text-decoration: none;
+  color: red;
 }
 
 
