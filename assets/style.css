@@ -20,7 +20,7 @@ footer{
 
 /* **** SECTION CABEÇALHO **** */ 
 header {
-  background-color: white;
+  background-color: #f2f2f2;
   height: 80px;
 }
 
@@ -31,28 +31,33 @@ header {
   margin-top: 35px;
 }
 
-.logo-ftmaquinas {
-}
-
 .cabecalho-navegacao {
   text-decoration: none;
   justify-content: right;
+  align-items: center;
   display: flex;
-  margin-top: -130px;
-  gap: 10px;
-  text-decoration: dashed;
+  margin-top: -150px;
+  gap: 15px;
+}
+
+.cabecalho-navegacao a:hover {
+  color: #D12B25;
 }
 
 .link-nav {
+  text-align: center;
   text-decoration: none;
+  font-weight: bold;
   color: black;
 }
 
-.botao-contato{
-  text-decoration: none;
-  color: red;
+#botao-contato{
+  width: 150px;
+  border-radius: 5px;
+  color: white;
+  background-color: #D12B25;
+  padding: 10px 20px;
 }
-
 
 /* **** ORGANIZAO TEXTOS **** */ 
 
