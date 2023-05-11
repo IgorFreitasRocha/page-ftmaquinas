@@ -147,3 +147,15 @@ width: 30%;
 footer{
   color: antiquewhite;
 }
+
+.rodape {
+  display: flex;
+  gap: 50px;
+  margin-left: 15px;
+  padding-top: 5px;
+}
+
+.rodape-texto p{
+  text-align: center;
+}
+
