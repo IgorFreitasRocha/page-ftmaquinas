@@ -152,6 +152,7 @@ footer{
   display: flex;
   gap: 50px;
   margin-left: 15px;
+  margin-right: 15px;
   padding-top: 5px;
 }
 
@@ -159,3 +160,9 @@ footer{
   text-align: center;
 }
 
+@media (max-width: 900px) {
+  .rodape {
+    display: block;
+    margin-top: 5px;
+  }
+}
