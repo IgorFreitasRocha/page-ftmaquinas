@@ -230,7 +230,8 @@ footer ul {
 }
 
 .item-rede-social:hover{
-  background: #D12B25;
+  color: #D12B25;
   transform: translate(0.9);
   transition: 0.8s;
+  background: transparent;
 }
