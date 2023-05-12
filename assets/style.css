@@ -136,10 +136,33 @@ width: 30%;
   flex-direction: column;
 }
 
-.img-cliente{
-  width: 10%;
-  border-radius: 50%;
+.clientes{
+  width: 300px;
+  height: 170px;
+  border-radius: 5%;
+  margin: 2%;
+  padding: 20px;
+  box-shadow: 3px 2px 2px 3px #e0dfdf;
+  cursor: pointer;
 }
+
+.clientes img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: -70px;
+}
+
+.clientes h2{
+  margin-left: 12%;
+  margin-top: 1%;
+}
+
+.clientes h3{
+  margin-left: 12%;
+  margin-top: -2%;
+}
+
 
 
 /* **** SECTION RODAPÉ **** */ 
