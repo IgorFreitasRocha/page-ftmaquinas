@@ -8,6 +8,7 @@ header, main{
 footer{
   margin: 1% 10%;
   background-color: rgb(27, 27, 119);
+  color: antiquewhite;
 }
 
 
@@ -20,7 +21,6 @@ footer{
 
 /* **** SECTION CABEÇALHO **** */ 
 header {
-  background-color: #f2f2f2;
   height: 80px;
 }
 
@@ -143,9 +143,9 @@ width: 30%;
 
 
 /* **** SECTION RODAPÉ **** */ 
-
-footer{
-  color: antiquewhite;
+footer ul {
+  list-style: none;
+  padding-left: 0px;
 }
 
 .rodape {
@@ -156,8 +156,44 @@ footer{
   padding-top: 5px;
 }
 
+.rodape ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
 .rodape-texto p{
   text-align: center;
+  font-weight: bolder;
+}
+
+.titulo-rodape {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+#lista-rede-social {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.botao-rodape {
+  text-decoration: none;
+  display: block;
+  background-color: #D12B25;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.rodape-navegacao a:hover{
+  color: #D12B25;
+}
+
+.info-item {
+  justify-content: left;
 }
 
 @media (max-width: 900px) {
