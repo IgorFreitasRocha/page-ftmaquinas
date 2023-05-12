@@ -233,5 +233,5 @@ footer ul {
   color: #D12B25;
   transform: translate(0.9);
   transition: 0.8s;
-  background: transparent;
+  background-color: #D12B25;
 }
