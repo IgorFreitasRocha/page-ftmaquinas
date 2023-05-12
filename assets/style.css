@@ -231,5 +231,6 @@ footer ul {
 
 .item-rede-social:hover{
   color: #D12B25;
-  transition: 0.7s;
+  transform: translate(0.9);
+  transition: 0.8s;
 }
