@@ -15,15 +15,10 @@ footer{
 /* **** SECTION TOPO CAROUSEL **** */ 
 .carousel{
   width: 100%;
-
 }
 
 
-/* **** SECTION CABEÇALHO **** */ 
-header {
-  background-color: white;
-}
-
+/* **** SECTION CABEÇALHO **** */
 .logo-ftmaquinas {
   align-items: center;
 }
