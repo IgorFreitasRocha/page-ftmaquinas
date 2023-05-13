@@ -57,6 +57,7 @@ header {
   color: white;
   background-color: #D12B25;
   padding: 10px 20px;
+  box-shadow: 0px 5px 20px 0px #D12B25;
 }
 
 /* **** ORGANIZAO TEXTOS **** */ 
