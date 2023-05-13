@@ -19,6 +19,9 @@ footer{
 
 
 /* **** SECTION CABEÇALHO **** */
+header {
+  font-family: Helvetica, sans-serif;
+}
 .logo-ftmaquinas {
   align-items: center;
 }
@@ -36,14 +39,27 @@ footer{
 }
 
 .nav-menu a:hover {
-  color: #D12B25;
+  color: white;
+  background-color: #D12B25;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 300ms ease-in-out;
 }
 
 .link-nav {
   text-align: center;
+  align-items: center;
   text-decoration: none;
   font-weight: bold;
   color: black;
+  transition: 300ms ease-in-out;
+}
+
+#botao-cabecalho {
+  border-radius: 5px;
+  color: white;
+  background-color: #D12B25;
+  padding: 15px 20px;
 }
 
 .botao-contato{
@@ -259,6 +275,7 @@ footer ul {
   text-decoration: none;
   display: block;
   padding: 10px 20px;
+  color: white;
 }
 
 .info-item {
