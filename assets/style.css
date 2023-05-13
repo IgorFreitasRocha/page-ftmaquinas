@@ -20,27 +20,26 @@ footer{
 
 /* **** SECTION CABEÇALHO **** */ 
 header {
-  background-color: #f2f2f2;
-  height: 80px;
+  background-color: white;
 }
 
-.cabecalho {
-  display: flex;
+.logo-ftmaquinas {
   align-items: center;
-  justify-content: flex-end;
-  margin-top: 35px;
 }
 
-.cabecalho-navegacao {
-  text-decoration: none;
-  justify-content: right;
-  align-items: center;
+.nav-container{
   display: flex;
-  margin-top: -150px;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
   gap: 15px;
+  list-style: none;
 }
 
-.cabecalho-navegacao a:hover {
+.nav-menu a:hover {
   color: #D12B25;
 }
 
