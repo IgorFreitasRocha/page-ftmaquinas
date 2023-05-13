@@ -109,19 +109,18 @@ header {
   background: rgb(87,113,246);
   background: radial-gradient(circle, rgb(72, 98, 226) 1%, rgb(13, 5, 78) 98%, rgba(27,12,129,1) 100%);
   color: white;
-  border-radius: 10px;
+  border-radius: 10px;  
   
-  
+}
+
+.conteudo-servico-titulos{
+  align-items: center;
+  text-align: center;
+  margin: 30px;
 }
 
 .conteudo-servico-titulos h2{
-  text-align: center;
   font-size: 35px;
-}
-
-.conteudo-servico-titulos p{
-  text-align: center;
-
 }
 
 .conteudo-descricao{
@@ -131,7 +130,6 @@ header {
   gap: 10px 20px;
   padding: 2% 15%;
   box-sizing: border-box;
-
 
 }
 
