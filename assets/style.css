@@ -51,18 +51,18 @@ header {
   color: black;
 }
 
-#botao-contato{
-  width: 150px;
+.botao-contato{
   border-radius: 5px;
   color: white;
   background-color: #D12B25;
   padding: 10px 20px;
   box-shadow: 0px 5px 20px 0px #D12B25;
+  transition: 300ms ease-in-out;
 }
 
-#botao-contato:hover {
+.botao-contato:hover {
   background-color: #e64035;
-  color: #ffff;
+  color: #D12B25;
   box-shadow: 0px 5px 20px 5px #D12B25;
   transition: 300ms ease-in-out;
 }
@@ -260,19 +260,10 @@ footer ul {
   margin-bottom: 10px;
 }
 
-.botao-rodape {
+#botao-rodape {
   text-decoration: none;
   display: block;
-  background-color: #D12B25;
-  text-align: center;
-  padding: 10px;
-  color: white;
-  font-weight: bold;
-  border-radius: 10px;
-}
-
-.rodape-navegacao a:hover{
-  color: #D12B25;
+  padding: 10px 20px;
 }
 
 .info-item {
