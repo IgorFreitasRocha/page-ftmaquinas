@@ -19,16 +19,10 @@ footer{
 
 
 /* **** SECTION CABEÇALHO **** */
-header {
-  font-family: Helvetica, sans-serif;
-}
-.logo-ftmaquinas {
-  align-items: center;
-}
-
 .nav-container{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-menu {
@@ -36,6 +30,7 @@ header {
   align-items: center;
   gap: 15px;
   list-style: none;
+  margin: 0 5px;
 }
 
 .nav-menu a:hover {
@@ -52,6 +47,7 @@ header {
   text-decoration: none;
   font-weight: bold;
   color: black;
+  letter-spacing: 1px;
   transition: 300ms ease-in-out;
 }
 
@@ -76,6 +72,39 @@ header {
   color: #D12B25;
   box-shadow: 0px 5px 20px 5px #D12B25;
   transition: 300ms ease-in-out;
+}
+
+nav .menu-btn {
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 920px){
+  nav .menu-btn {
+    display: block;
+  }
+
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -105%;
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+    z-index: 2;
+  }
+
+  nav ul.open {
+    left: 0;
+  }
+
+  nav ul li {
+    width: 100%;
+    margin: 50px 0;
+  }
 }
 
 /* **** ORGANIZAO TEXTOS **** */ 
