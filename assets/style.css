@@ -194,6 +194,7 @@ footer{
   background: rgb(87,113,246);
   background: radial-gradient(circle, rgb(72, 98, 226) 1%, rgb(13, 5, 78) 98%, rgba(27,12,129,1) 100%);
   color: white;
+  font-size: 14px;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -203,10 +204,24 @@ footer{
 
 .sobre-empresa p {
   text-align: center;
+  padding: 0 100px 0 100px;
 }
 
 .titulo-sobre {
   font-weight: 900;
+  font-size: 70px;
+  padding-bottom: 15px;
+}
+
+.sobre-help {
+  text-decoration: none;
+  color: #D12B25;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.sobre-help:hover {
+  color: #e64035;
 }
 
 
