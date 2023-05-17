@@ -199,12 +199,17 @@ footer{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: justify;
+}
+
+.sobre-empresa p {
+  text-align: center;
 }
 
 .titulo-sobre {
   font-weight: 900;
 }
+
+
 
 /* **** SECTION PRODUTOS **** */ 
 .conteudo-maquinas-img{
