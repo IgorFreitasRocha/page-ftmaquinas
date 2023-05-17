@@ -33,12 +33,30 @@ footer{
   margin: 0 5px;
 }
 
-.nav-menu a:hover {
-  color: white;
+.nav-menu a{
+  position: relative;
+}
+
+.nav-menu a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -2px;
+  left: 0;
   background-color: #D12B25;
-  padding: 10px;
-  border-radius: 10px;
-  transition: 300ms ease-in-out;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-menu a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  color: #e64035;
 }
 
 .link-nav {
