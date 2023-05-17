@@ -189,6 +189,22 @@ footer{
 
 }
 
+/* Sobre a Empresa */
+.sobre-empresa {
+  background: rgb(87,113,246);
+  background: radial-gradient(circle, rgb(72, 98, 226) 1%, rgb(13, 5, 78) 98%, rgba(27,12,129,1) 100%);
+  color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.titulo-sobre {
+  font-weight: 900;
+}
 
 /* **** SECTION PRODUTOS **** */ 
 .conteudo-maquinas-img{
