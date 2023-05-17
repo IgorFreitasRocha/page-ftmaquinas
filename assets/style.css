@@ -121,20 +121,20 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 1rem;
+    padding-bottom: 5px;
     list-style: none;
   }
 
   .mobile-menu .link-nav {
     display: block;
-    padding-top: 1.2rem;
+    padding-top: 10px;
   }
 
   .link-nav:hover {
     color: white;
     background-color: #D12B25;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: 300ms ease-in-out;
   }
 
