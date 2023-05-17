@@ -242,60 +242,21 @@ footer{
   background: rgb(87,113,246);
   background: radial-gradient(circle, rgb(72, 98, 226) 1%, rgb(13, 5, 78) 98%, rgba(27,12,129,1) 100%);
   color: white;
-  border-radius: 10px;  
+  border-radius: 10px; 
+
   
 }
 
-.conteudo-servico-titulos{
-  align-items: center;
-  text-align: center;
-  margin: 30px;
-}
-
-.conteudo-servico-titulos h2{
-  font-size: 35px;
-}
-
-.conteudo-descricao{
+.posicao-cards{
   display: flex;
-  flex-wrap: row;
-  align-items: space-around;
-  gap: 10px 20px;
-  padding: 2% 15%;
-  box-sizing: border-box;
-
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
+  padding: 2%;
 }
 
 
-.conteudo-descricao{
 
-}
-
-.conteudo-divisao{
-  height: 200px;
-  overflow: hidden;
-  border-radius: 10px;
-
-}
-
-.conteudo-divisao img{
-  
-object-fit: cover;
-transition: transform 0.8s;
-height: 100%;
-  
-}
-
-.conteudo-divisao img:hover{
-  
-  transform: scale(1.3);
-  
-}
-
-.conteudo-divisao p {
-  
-
-}
 
 
 /* **** SECTION EMPRESAS PARCEIRAS **** */ 
