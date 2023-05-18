@@ -111,6 +111,10 @@ footer{
     display: none;
   }
 
+  .botao-contato {
+    display: none;
+  }
+
   .menu-btn {
     display: block;
   }
@@ -207,7 +211,7 @@ footer{
 .titulo-sobre {
   font-weight: 900;
   padding-bottom: 15px;
-  font-size: 60px;
+  font-size: clamp(2rem, 4vw, 10rem);
 }
 
 .sobre-help {
