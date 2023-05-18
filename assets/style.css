@@ -37,7 +37,7 @@ footer{
   position: relative;
 }
 
-.nav-menu a:before {
+.link-nav:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -52,7 +52,7 @@ footer{
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before {
+.link-nav:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -77,6 +77,10 @@ footer{
 }
 
 .botao-contato{
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
   border-radius: 5px;
   color: white;
   background-color: #D12B25;
