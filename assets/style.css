@@ -130,14 +130,6 @@ footer{
     padding-top: 10px;
   }
 
-  .link-nav:hover {
-    color: white;
-    background-color: #D12B25;
-    padding: 10px;
-    border-radius: 5px;
-    transition: 300ms ease-in-out;
-  }
-
   .mobile-menu #botao-cabecalho {
     display: block;
     padding: 10px 20px;
@@ -194,7 +186,7 @@ footer{
   background: rgb(87,113,246);
   background: radial-gradient(circle, rgb(72, 98, 226) 1%, rgb(13, 5, 78) 98%, rgba(27,12,129,1) 100%);
   color: white;
-  font-size: 14px;
+  font-size: 24px;
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -204,20 +196,21 @@ footer{
 
 .sobre-empresa p {
   text-align: center;
-  padding: 0 100px 0 100px;
+  padding: 0 60px 0 60px;
+  font-size: clamp(0.5rem, 2.5vw, 1rem);
 }
 
 .titulo-sobre {
   font-weight: 900;
-  font-size: 70px;
   padding-bottom: 15px;
+  font-size: 60px;
 }
 
 .sobre-help {
   text-decoration: none;
   color: #D12B25;
   font-weight: 600;
-  font-size: 20px;
+  font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 .sobre-help:hover {
