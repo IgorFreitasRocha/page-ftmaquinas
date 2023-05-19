@@ -17,12 +17,20 @@ footer{
   width: 100%;
 }
 
+.conteudo {
+  padding-top: 80px;
+}
+
 
 /* **** SECTION CABEÇALHO **** */
 .nav-container{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  width: 80%;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.9);
 }
 
 .nav-menu {
