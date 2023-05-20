@@ -303,11 +303,34 @@ mark:hover{
 
 /* **** SECTION EMPRESAS PARCEIRAS **** */ 
 
+#conteudo-clientes{
+background: rgb(87,113,246);
+background: radial-gradient(circle, rgb(222, 223, 231) 1%, rgb(245, 244, 253) 98%, rgb(255, 255, 255) 100%);
+color: rgb(26, 25, 25);
+border-radius: 10px;
+padding: 2% 2% ;
+margin: 1% 0 ;
+}
 
+#conteudo-clientes .paragrafo{
+  text-align: center;
+  font-weight: 500;
+  padding: 0 60px 0 60px;
+  font-size: clamp(0.5rem, 2.5vw, 1rem);
+}
 
+.logo-empresas-parceiras{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2%;
 
+}
 
-
+.logo-empresas-parceiras img {
+  border-radius: 50%;
+  width: 10%;
+}
 
 
 
