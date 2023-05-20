@@ -319,19 +319,8 @@ margin: 1% 0 ;
   font-size: clamp(0.5rem, 2.5vw, 1rem);
 }
 
-.logo-empresas-parceiras{
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  gap: 2%;
-
+#conteudo-clientes img{
 }
-
-.logo-empresas-parceiras img {
-  border-radius: 50%;
-  width: 10%;
-}
-
 
 
 /* **** SECTION CLIENTES **** */ 
