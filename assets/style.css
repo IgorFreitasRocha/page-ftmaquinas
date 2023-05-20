@@ -256,22 +256,24 @@ footer{
   padding: 2%;
 }
 
+.posicao-cards button{
+  position: absolute;
+  bottom: 1%;
+}
+
 
 
 
 
 /* **** SECTION EMPRESAS PARCEIRAS **** */ 
 
-.logo-empresas-parceiras{
-
- 
-}
 
 
-.logo-img img{
 
 
-}
+
+
+
 
 /* **** SECTION CLIENTES **** */ 
 
