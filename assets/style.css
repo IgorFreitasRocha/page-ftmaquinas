@@ -222,7 +222,6 @@ footer{
   text-align: center;
   font-weight: 500;
   padding: 0 60px 0 60px;
-  font-size: clamp(0.5rem, 2.5vw, 1rem);
 }
 
 .titulo-sobre {
@@ -261,7 +260,6 @@ margin: 1% 0 ;
   text-align: center;
   font-weight: 500;
   padding: 0 60px 0 60px;
-  font-size: clamp(0.5rem, 2.5vw, 1rem);
 }
 
 
@@ -281,7 +279,6 @@ margin: 1% 0 ;
   text-align: center;
   font-weight: 500;
   padding: 0 60px 0 60px;
-  font-size: clamp(0.5rem, 2.5vw, 1rem);
 }
 
 .posicao-cards{
@@ -317,7 +314,6 @@ margin: 1% 0 ;
   text-align: center;
   font-weight: 500;
   padding: 0 60px 0 60px;
-  font-size: clamp(0.5rem, 2.5vw, 1rem);
 }
 
 #conteudo-clientes img{
