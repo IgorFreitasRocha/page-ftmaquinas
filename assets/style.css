@@ -19,7 +19,7 @@ footer{
 }
 
 .conteudo {
-  padding-top: 80px;
+  padding-top: 75px;
 }
 
 #carrosel-apresentação{
@@ -34,7 +34,7 @@ footer{
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 80%;
+  width: 100%;
   z-index: 2;
   background: rgba(255, 255, 255, 0.9);
 }
@@ -121,6 +121,14 @@ footer{
 }
 
 @media (max-width: 920px){
+  .nav-container {
+    position: relative;
+  }
+
+  .carousel {
+    margin-top: -75px;
+  }
+ 
   .link-nav {
     display: none;
   }
