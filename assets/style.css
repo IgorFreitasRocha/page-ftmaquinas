@@ -145,6 +145,7 @@ footer{
     background-color:transparent;
     border: none;
     cursor: pointer;
+    padding-right: 10px;
   }
 
   .mobile-menu ul {
@@ -152,6 +153,7 @@ footer{
     flex-direction: column;
     text-align: center;
     padding-bottom: 5px;
+    padding-right: 25px;
     list-style: none;
   }
 
