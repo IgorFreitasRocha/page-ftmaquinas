@@ -269,7 +269,7 @@ margin: 1% 0 ;
   background: rgb(87,113,246);
   background: radial-gradient(circle, rgb(72, 98, 226) 1%, rgb(13, 5, 78) 98%, rgba(27,12,129,1) 100%);
   color: white;
-  border-radius: 10px;
+  border-radius: 2px;
   padding: 2% 2% ;
   margin: 1% 0 ;
 
@@ -313,10 +313,10 @@ padding: 2% 2% ;
 margin: 1% 0 ;
 }
 
-#conteudo-clientes .paragrafo{
-  text-align: center;
+.paragrafo{
   font-weight: 500;
   padding: 0 60px 0 60px;
+  text-align: justify;
 }
 
 #conteudo-clientes img{
