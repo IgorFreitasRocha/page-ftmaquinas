@@ -398,10 +398,8 @@ footer {
 .rodape {
   display: flex;
   gap: 50px;
-  justify-content: center;
-  margin-left: 15px;
-  margin-right: 15px;
-  padding-top: 5px;
+  justify-content: left;
+  padding: 15px 60px 5px 60px;
 }
 
 .rodape ul li a {
@@ -443,6 +441,10 @@ footer {
 
 .info-item {
   justify-content: left;
+}
+
+.info-lista i {
+  font-size: 20px;
 }
 
 @media (max-width: 900px) {
