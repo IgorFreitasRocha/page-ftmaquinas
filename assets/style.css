@@ -206,9 +206,21 @@
 }
 
 /* Sobre a Empresa */
-.sobre-empresa {
+.container-sobre {
   background: rgb(87,113,246);
   background: radial-gradient(circle, rgb(72, 98, 226) 1%, rgb(13, 5, 78) 98%, rgba(27,12,129,1) 100%);
+  display: grid;
+  grid-template-columns: 600px 600px;
+  justify-content: center;
+}
+
+.container-img img{
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+}
+
+.sobre-empresa {
   color: white;
   font-size: 24px;
   display: flex;
@@ -243,8 +255,14 @@
   color: #e64035;
 }
 
-
-
+@media (max-width: 920px){
+  .container-sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 /* **** SECTION PRODUTOS **** */ 
 
 
