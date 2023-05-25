@@ -210,7 +210,7 @@
   background: rgb(87,113,246);
   background: radial-gradient(circle, rgb(72, 98, 226) 1%, rgb(13, 5, 78) 98%, rgba(27,12,129,1) 100%);
   display: grid;
-  grid-template-columns: 600px 600px;
+  grid-template-columns: 500px 400px;
   justify-content: center;
 }
 
@@ -227,15 +227,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 15px 0 15px 0;
-  border-radius: 10px;
-  margin: 1% 0;
+  margin-left: -80px;
 }
 
 .sobre-empresa p {
   text-align: center;
   font-weight: 500;
-  padding: 0 85px 0 85px;
 }
 
 .titulo-sobre {
