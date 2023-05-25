@@ -259,6 +259,10 @@
     align-items: center;
     justify-content: center;
   }
+
+  .container-sobre p, .titulo-sobre, .sobre-help {
+    margin-left: 80px;
+  }
 }
 /* **** SECTION PRODUTOS **** */ 
 
