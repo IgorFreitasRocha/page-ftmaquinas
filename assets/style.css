@@ -391,6 +391,10 @@ footer {
   color: antiquewhite;
 }
 
+#maps iframe{
+  border-radius: 5px;
+}
+
 .rodape ul {
   list-style: none;
   padding-left: 0px;
