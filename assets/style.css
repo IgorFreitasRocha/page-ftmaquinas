@@ -26,9 +26,12 @@
   justify-content: space-between;
   align-items: center;
   position: fixed;
-  width: 100%;
   z-index: 2;
   background: rgba(255, 255, 255, 0.9);
+}
+
+.logo-ftmaquinas {
+  margin: 0 0 0 -25px;
 }
 
 .nav-menu {
@@ -36,7 +39,7 @@
   align-items: center;
   gap: 15px;
   list-style: none;
-  margin: 0 5px;
+  margin: 0 12px;
 }
 
 .nav-menu a{

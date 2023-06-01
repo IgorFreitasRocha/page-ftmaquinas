@@ -16,13 +16,27 @@
 
 <body>
     <!-- Menu principal -->
-    <header>
-        <nav>
-            <div class="nav-container">
-                <div class="logo-ftmaquinas">
-                    <a href="#"><img src="assets/img/iimg-logo/ft-maquinas.png" alt="Logo da Empresa"></a>
-                </div>
-                <ul class="nav-menu">
+    <div class="container">
+        <header>
+            <nav class="nav-container container">
+                    <div class="logo-ftmaquinas">
+                        <a href="#"><img src="assets/img/iimg-logo/ft-maquinas.png" alt="Logo da Empresa"></a>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="/" class="link-nav">Início</a></li>
+                        <li><a href="#conteudo-produtos" class="link-nav">Produtos</a></li>
+                        <li><a href="#conteudo-servico" class="link-nav">Serviços</a></li>
+                        <li><a href="#conteudo-clientes" class="link-nav">Clientes</a></li>
+                        <li><a href="#conteudo-avaliacoes" class="link-nav">Avaliações</a></li>
+                        <li><a id="botao-cabecalho" class="botao-contato" href="#">CONTATO</a></li>
+                    </ul>
+                    <div class="menu-btn">
+                        <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+                    </div>
+            </nav>
+
+            <div class="mobile-menu">
+                <ul>
                     <li><a href="/" class="link-nav">Início</a></li>
                     <li><a href="#conteudo-produtos" class="link-nav">Produtos</a></li>
                     <li><a href="#conteudo-servico" class="link-nav">Serviços</a></li>
@@ -30,288 +44,273 @@
                     <li><a href="#conteudo-avaliacoes" class="link-nav">Avaliações</a></li>
                     <li><a id="botao-cabecalho" class="botao-contato" href="#">CONTATO</a></li>
                 </ul>
-                <div class="menu-btn">
-                    <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
-                </div>
             </div>
-        </nav>
+        </header>
+        <!-- podemos fazer aquela barra abaixo do nav, mostrando uma barrinha aumentando conforme o usuário rola o scroll
+            até o fim da página -->
 
-        <div class="mobile-menu">
-            <ul>
-                <li><a href="/" class="link-nav">Início</a></li>
-                <li><a href="#conteudo-produtos" class="link-nav">Produtos</a></li>
-                <li><a href="#conteudo-servico" class="link-nav">Serviços</a></li>
-                <li><a href="#conteudo-clientes" class="link-nav">Clientes</a></li>
-                <li><a href="#conteudo-avaliacoes" class="link-nav">Avaliações</a></li>
-                <li><a id="botao-cabecalho" class="botao-contato" href="#">CONTATO</a></li>
-            </ul>
-        </div>
-    </header>
-    <!-- podemos fazer aquela barra abaixo do nav, mostrando uma barrinha aumentando conforme o usuário rola o scroll
-        até o fim da página -->
-
-    <main class="conteudo">
-        <section id="carrosel-apresentação">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/img/img-banner/img-banner-ftmaquinas.png" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/img-banner/img-exemplo-banner2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/img-banner/img-exemplo-banner3.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- SOBRE A EMPRESA -->
-
-        <section>
-            <div class="container-sobre">
-                <div class="sobre-empresa">
-                    <h1 class="titulo-sobre">FT Maquinas</h1>
-                    <p class="text-center paragrafo p">A <strong>FT</strong> Máquinas é uma empresa especializada em
-                        serviços de <strong>usinagem, torno CNC,
-                            torno mecânico e fresa</strong>, oferecendo soluções de alta qualidade e precisão para
-                        atender às
-                        necessidades de diferentes setores industriais. A empresa conta com uma equipe de profissionais
-                        altamente qualificados para garantir a produção de peças com acabamentos impecáveis.
-                    </p>
-                    <div>
-                        <a href="#" class="sobre-help">Obter a ajuda que você precisa</a>
-                    </div>
-                </div>
-
-                <div class="container-img">
-                    <img src="assets/img/iimg-logo/sobre-ftmaquinas.png" alt="">
-                </div>
-            </div>
-        </section>
-
-        <!-- Produto -->
-        <section id="conteudo-produtos">
-
-            <div class="conteudo-servico-titulos text-center">
-                <h2>Produtos</h2>
-                <p class="text-center paragrafo p"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-                    vel sint consequuntur quae, iusto cupiditate maiores voluptatibus nesciunt laborum ea obcaecati
-                    facilis exercitationem commodi molestias deleniti corporis pariatur. Eligendi, repudiandae. </p>
-            </div>
-
-            <div class="posicao-cards row">
-                <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-2" style="width: 18rem;">
-                    <img src="assets/img/img-maquinas/maquinaTH.jpg" class="card-img-top"
-                        alt="Máquina para teste hidrostático">
-                    <div class="card-body">
-                        <h5 class="card-title">Máquina para teste hidrostático</h5>
-                        <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                    </div>
-                </div>
-                <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-2" style="width: 18rem;">
-                    <img src="assets/img/img-maquinas/maquinaEmpatar.jpg" class="card-img-top"
-                        alt="Máquina de empatar mangueiras">
-                    <div class="card-body">
-                        <h5 class="card-title">Máquina de empatar mangueiras</h5>
-                        <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                    </div>
-                </div>
-                <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-2" style="width: 18rem;">
-                    <img src="assets/img/img-maquinas/maquinaEnrolador.jpg" class="card-img-top"
-                        alt="Enrolador elétrico de mangueiras">
-                    <div class="card-body">
-                        <h5 class="card-title">Enrolador elétrico de mangueiras</h5>
-                        <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                    </div>
-                </div>
-            </div>
-                <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-2" style="width: 18rem;">
-                    <img src="assets/img/img-maquinas/img-peças-4.png" class="card-img-top"
-                        alt="Máquina para teste hidrostático">
-                    <div class="card-body">
-                        <h5 class="card-title">Peça 1</h5>
-                        <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                    </div>
-                </div>
-                <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-2" style="width: 18rem;">
-                    <img src="assets/img/img-maquinas/img-peças-3.jpg" class="card-img-top"
-                        alt="Máquina para teste hidrostático">
-                    <div class="card-body">
-                        <h5 class="card-title">Peça 2</h5>
-                        <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                    </div>
-                </div>
-
-        </section>
-
-
-        <!-- Serviços -->
-        <section id="conteudo-servico">
-            <div class="conteudo-servico-titulos text-center">
-                <h2>Serviço que oferecemos</h2>
-                <p class="text-center paragrafo p"> A FT Máquinas é uma empresa especializada em serviços de
-                    <strong><mark>usinagem</mark>, <mark>torno CNC</mark>, <mark>torno mecânico</mark> e
-                        <mark>fresa</mark></strong> Com uma vasta lista de parceiros, a empresa é reconhecida por sua
-                    alta qualidade e precisão na produção de peças impecáveis, com acabamentos precisos e qualidade
-                    superior, atendendo às exigências do mercado com eficiência e rapidez.
-                </p>
-            </div>
-
-
-
-            <div class="posicao-cards row">
-
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <div class="card">
-                            <img src="https://www.mecanicaindustrial.com.br/wp-content/uploads/2011/09/operando-um-torno-CNC.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Torno CNC</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card">
-                            <img src="https://www.mecanicaindustrial.com.br/wp-content/uploads/2011/09/operando-um-torno-CNC.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Torno Mecânico</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="card">
-                            <img src="https://www.mecanicaindustrial.com.br/wp-content/uploads/2011/09/operando-um-torno-CNC.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Fresa</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                        </div>
-                    </div>
-
-        </section>
-
-        <!-- Clientes/Empresas parceiras -->
-        <section id="conteudo-clientes">
-
-            <div class="conteudo-servico-titulos text-center">
-                <h2>Empresas Parceiras</h2>
-                <p class="paragrafo p">A <strong>FT Máquinas</strong> é uma empresa que conta com uma vasta lista de
-                    parceiros que confiam em
-                    seus serviços de alta qualidade e precisão. A parceria com a FT Máquinas tem proporcionado às
-                    empresas parceiras a produção de peças impecáveis, com acabamentos precisos e qualidade superior,
-                    atendendo às exigências do mercado com eficiência e rapidez. Entre as empresas que confiam no
-                    trabalho da FT Máquinas, destacam-se grandes players do mercado, como <strong>xxxxx, xxxxxx,
-                        xxxxxx,</strong>, entre outras. A confiança depositada por essas empresas é o reflexo do
-                    compromisso e excelência que a FT Máquinas tem oferecido em seus serviços de usinagem e
-                    produção de peças de alta qualidade.</p>
-            </div>
-
-            <div class="logo-empresas-parceiras d-flex justify-content-evenly">
-
-
-                <img class="img-fluid rounded-circle border border-primary"
-                    src="https://www.designevo.com/res/templates/thumb_small/green-and-blue-investment-building.webp"
-                    alt="">
-                <img class="img-fluid rounded-circle border border-primary"
-                    src="https://www.designevo.com/res/templates/thumb_small/green-and-blue-investment-building.webp"
-                    alt="">
-                <img class="img-fluid rounded-circle border border-primary"
-                    src="https://www.designevo.com/res/templates/thumb_small/green-and-blue-investment-building.webp"
-                    alt="">
-        </section>
-
-        <!-- COMENTÁRIOS -->
-
-          <section id="conteudo-avaliacoes">
-              <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <main class="conteudo">
+            <section id="carrosel-apresentação">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
                     <div class="carousel-inner">
-                     <div class="carousel-item active">
-                      <img src="assets/img/img-clientes/depoimento-cliente-1.png" class="d-block w-5" alt="depoimento-1">
-                     </div>
-                     <div class="carousel-item">
-                       <img src="assets/img/img-clientes/depoimento-cliente-2.png" class="d-block w-5" alt="depoimento-2">
-                     </div>
-                     <div class="carousel-item">
-                      <img src="assets/img/img-clientes/depoimento-cliente-1.png" class="d-block w-5" alt="depoimento-3">
+                        <div class="carousel-item active">
+                            <img src="assets/img/img-banner/img-banner-ftmaquinas.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/img-banner/img-exemplo-banner2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/img-banner/img-exemplo-banner3.png" class="d-block w-100" alt="...">
+                        </div>
                     </div>
                 </div>
+            </section>
+
+            <!-- SOBRE A EMPRESA -->
+
+            <section>
+                <div class="container-sobre">
+                    <div class="sobre-empresa">
+                        <h1 class="titulo-sobre">FT Maquinas</h1>
+                        <p class="text-center paragrafo p">A <strong>FT</strong> Máquinas é uma empresa especializada em
+                            serviços de <strong>usinagem, torno CNC,
+                                torno mecânico e fresa</strong>, oferecendo soluções de alta qualidade e precisão para
+                            atender às
+                            necessidades de diferentes setores industriais. A empresa conta com uma equipe de profissionais
+                            altamente qualificados para garantir a produção de peças com acabamentos impecáveis.
+                        </p>
+                        <div>
+                            <a href="#" class="sobre-help">Obter a ajuda que você precisa</a>
+                        </div>
+                    </div>
+
+                    <div class="container-img">
+                        <img src="assets/img/iimg-logo/sobre-ftmaquinas.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Produto -->
+            <section id="conteudo-produtos">
+
+                <div class="conteudo-servico-titulos text-center">
+                    <h2>Produtos</h2>
+                    <p class="text-center paragrafo p"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+                        vel sint consequuntur quae, iusto cupiditate maiores voluptatibus nesciunt laborum ea obcaecati
+                        facilis exercitationem commodi molestias deleniti corporis pariatur. Eligendi, repudiandae. </p>
+                </div>
+
+                <div class="posicao-cards row">
+                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-2" style="width: 18rem;">
+                        <img src="assets/img/img-maquinas/maquinaTH.jpg" class="card-img-top"
+                            alt="Máquina para teste hidrostático">
+                        <div class="card-body">
+                            <h5 class="card-title">Máquina para teste hidrostático</h5>
+                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-2" style="width: 18rem;">
+                        <img src="assets/img/img-maquinas/maquinaEmpatar.jpg" class="card-img-top"
+                            alt="Máquina de empatar mangueiras">
+                        <div class="card-body">
+                            <h5 class="card-title">Máquina de empatar mangueiras</h5>
+                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-2" style="width: 18rem;">
+                        <img src="assets/img/img-maquinas/maquinaEnrolador.jpg" class="card-img-top"
+                            alt="Enrolador elétrico de mangueiras">
+                        <div class="card-body">
+                            <h5 class="card-title">Enrolador elétrico de mangueiras</h5>
+                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-2" style="width: 18rem;">
+                        <img src="assets/img/img-maquinas/img-peças-4.png" class="card-img-top"
+                            alt="Máquina para teste hidrostático">
+                        <div class="card-body">
+                            <h5 class="card-title">Peça 1</h5>
+                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-2" style="width: 18rem;">
+                        <img src="assets/img/img-maquinas/img-peças-3.jpg" class="card-img-top"
+                            alt="Máquina para teste hidrostático">
+                        <div class="card-body">
+                            <h5 class="card-title">Peça 2</h5>
+                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+
+            </section>
+
+
+            <!-- Serviços -->
+            <section id="conteudo-servico">
+                <div class="conteudo-servico-titulos text-center">
+                    <h2>Serviço que oferecemos</h2>
+                    <p class="text-center paragrafo p"> A FT Máquinas é uma empresa especializada em serviços de
+                        <strong><mark>usinagem</mark>, <mark>torno CNC</mark>, <mark>torno mecânico</mark> e
+                            <mark>fresa</mark></strong> Com uma vasta lista de parceiros, a empresa é reconhecida por sua
+                        alta qualidade e precisão na produção de peças impecáveis, com acabamentos precisos e qualidade
+                        superior, atendendo às exigências do mercado com eficiência e rapidez.
+                    </p>
+                </div>
+
+
+
+                <div class="posicao-cards row">
+
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://www.mecanicaindustrial.com.br/wp-content/uploads/2011/09/operando-um-torno-CNC.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Torno CNC</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://www.mecanicaindustrial.com.br/wp-content/uploads/2011/09/operando-um-torno-CNC.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Torno Mecânico</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card">
+                                <img src="https://www.mecanicaindustrial.com.br/wp-content/uploads/2011/09/operando-um-torno-CNC.jpg"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fresa</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+
+            </section>
+
+            <!-- Clientes/Empresas parceiras -->
+            <section id="conteudo-clientes">
+
+                <div class="conteudo-servico-titulos text-center">
+                    <h2>Empresas Parceiras</h2>
+                    <p class="paragrafo p">A <strong>FT Máquinas</strong> é uma empresa que conta com uma vasta lista de
+                        parceiros que confiam em
+                        seus serviços de alta qualidade e precisão. A parceria com a FT Máquinas tem proporcionado às
+                        empresas parceiras a produção de peças impecáveis, com acabamentos precisos e qualidade superior,
+                        atendendo às exigências do mercado com eficiência e rapidez. Entre as empresas que confiam no
+                        trabalho da FT Máquinas, destacam-se grandes players do mercado, como <strong>xxxxx, xxxxxx,
+                            xxxxxx,</strong>, entre outras. A confiança depositada por essas empresas é o reflexo do
+                        compromisso e excelência que a FT Máquinas tem oferecido em seus serviços de usinagem e
+                        produção de peças de alta qualidade.</p>
+                </div>
+
+                <div class="logo-empresas-parceiras d-flex justify-content-evenly">
+
+
+                    <img class="img-fluid rounded-circle border border-primary"
+                        src="https://www.designevo.com/res/templates/thumb_small/green-and-blue-investment-building.webp"
+                        alt="">
+                    <img class="img-fluid rounded-circle border border-primary"
+                        src="https://www.designevo.com/res/templates/thumb_small/green-and-blue-investment-building.webp"
+                        alt="">
+                    <img class="img-fluid rounded-circle border border-primary"
+                        src="https://www.designevo.com/res/templates/thumb_small/green-and-blue-investment-building.webp"
+                        alt="">
+            </section>
+
+            <!-- COMENTÁRIOS -->
+
+            <section id="conteudo-avaliacoes">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="assets/img/img-clientes/depoimento-cliente-1.png" class="d-block w-5" alt="depoimento-1">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="assets/img/img-clientes/depoimento-cliente-2.png" class="d-block w-5" alt="depoimento-2">
+                        </div>
+                        <div class="carousel-item">
+                        <img src="assets/img/img-clientes/depoimento-cliente-1.png" class="d-block w-5" alt="depoimento-3">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Rodapé-->
+        <footer>
+            <div class="rodape">
+                <nav class="rodape-navegacao">
+                    <p class="titulo-rodape">Navegação</p>
+                    <ul>
+                        <li><a href="/">Início</a></li>
+                        <li><a href="#conteudo-produtos">Produtos</a></li>
+                        <li><a href="#conteudo-servico">Serviços</a></li>
+                        <li><a href="#conteudo-clientes">Parceiros</a></li>
+                        <li><a href="#conteudo-avaliacoes">Avaliações</a></li>
+                    </ul>
+                </nav>
+                <div id="info-empresa">
+                    <p class="titulo-rodape">Contato</p>
+                    <ul class="info-lista">
+                        <li>
+                            <i class="fa fa-building"></i>
+                            Endereço: R. Momento Lírico, 55 - Jardim Guanabara, São Paulo - SP, 04860-270
+                        </li>
+                        <li>
+                            <i class="fa fa-phone-square"></i>
+                            Telefone: (11) 5928-0579
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            Email: vendasftmaquinas@gmail.com
+                        </li>
+                    </ul>
+                </div>
+                <div id="redes-sociais">
+                    <p class="titulo-rodape">Redes Sociais</p>
+                    <ul id="lista-rede-social">
+                        <li class="item-rede-social">
+                            <a href="https://www.instagram.com/ftmaquinas/" target="_blank">
+                                <i class="fa fa-instagram icon-rede-social"></i>
+                            </a>
+                        </li>
+                        <li class="item-rede-social">
+                            <a href="https://www.facebook.com/profile.php?id=100080216838439" target="_blank">
+                                <i class="fa fa-facebook-official icon-rede-social"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <a href="#" id="botao-rodape" class="botao-contato link-nav">CONTATO</a>
+                </div>
+                <div id="maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.4676628775883!2d-46.715470324453996!3d-23.766355469155748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce492b498cc2c3%3A0x4fc32143c5b03772!2sR.%20Momento%20L%C3%ADrico%2C%2055%20-%20Jardim%20Guanabara%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004860-270!5e0!3m2!1spt-BR!2sbr!4v1685141187125!5m2!1spt-BR!2sbr"
+                        width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-         </section>
 
-    </main>
-
-    <!-- Rodapé-->
-    <footer>
-        <div class="rodape">
-            <nav class="rodape-navegacao">
-                <p class="titulo-rodape">Navegação</p>
-                <ul>
-                    <li><a href="/">Início</a></li>
-                    <li><a href="#conteudo-produtos">Produtos</a></li>
-                    <li><a href="#conteudo-servico">Serviços</a></li>
-                    <li><a href="#conteudo-clientes">Parceiros</a></li>
-                    <li><a href="#conteudo-avaliacoes">Avaliações</a></li>
-                </ul>
-            </nav>
-            <div id="info-empresa">
-                <p class="titulo-rodape">Contato</p>
-                <ul class="info-lista">
-                    <li>
-                        <i class="fa fa-building"></i>
-                        Endereço: R. Momento Lírico, 55 - Jardim Guanabara, São Paulo - SP, 04860-270
-                    </li>
-                    <li>
-                        <i class="fa fa-phone-square"></i>
-                        Telefone: (11) 5928-0579
-                    </li>
-                    <li>
-                        <i class="fa fa-envelope"></i>
-                        Email: vendasftmaquinas@gmail.com
-                    </li>
-                </ul>
+            <div class="rodape-texto">
+                <p>&copy;Desenvolvido para FT Maquinas</p>
             </div>
-            <div id="redes-sociais">
-                <p class="titulo-rodape">Redes Sociais</p>
-                <ul id="lista-rede-social">
-                    <li class="item-rede-social">
-                        <a href="https://www.instagram.com/ftmaquinas/" target="_blank">
-                            <i class="fa fa-instagram icon-rede-social"></i>
-                        </a>
-                    </li>
-                    <li class="item-rede-social">
-                        <a href="https://www.facebook.com/profile.php?id=100080216838439" target="_blank">
-                            <i class="fa fa-facebook-official icon-rede-social"></i>
-                        </a>
-                    </li>
-
-                </ul>
-                <a href="#" id="botao-rodape" class="botao-contato link-nav">CONTATO</a>
-            </div>
-            <div id="maps">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.4676628775883!2d-46.715470324453996!3d-23.766355469155748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce492b498cc2c3%3A0x4fc32143c5b03772!2sR.%20Momento%20L%C3%ADrico%2C%2055%20-%20Jardim%20Guanabara%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004860-270!5e0!3m2!1spt-BR!2sbr!4v1685141187125!5m2!1spt-BR!2sbr"
-                    width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-
-        <div class="rodape-texto">
-            <p>&copy;Desenvolvido para FT Maquinas</p>
-        </div>
-    </footer>
-
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
