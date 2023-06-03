@@ -310,12 +310,12 @@ p {
 
 .paragrafo {
   font-weight: 500;
-  padding: 0 60px 0 60px;
+  padding: 0 20px 0 20px;
   text-align: justify;
 }
 
 #conteudo-clientes img {
-  width: 20%;
+  width: 30%;
   aspect-ratio: 3/2;
   object-fit: contain;
 }
