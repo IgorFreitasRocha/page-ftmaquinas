@@ -1,33 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap");
 
 /* header, main{
   margin: 1% 10%;
 } */
 
-/* **** SECTION TOPO CAROUSEL **** */ 
+/* **** SECTION TOPO CAROUSEL **** */
 
 body {
   scroll-behavior: smooth;
 }
 
-
-.carousel{
+.carousel {
   width: 100%;
 }
 
 .conteudo {
-  padding-top: 75px;
+  padding-top: 80px;
 }
-
-#carrosel-apresentação{
-  margin: 1% 0;
-  border-radius: 10px;
-}
-
 
 /* **** SECTION CABEÇALHO **** */
-.nav-container{
+.nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,7 +40,7 @@ body {
   margin: 0 12px;
 }
 
-.nav-menu a{
+.nav-menu a {
   position: relative;
 }
 
@@ -59,7 +51,7 @@ body {
   height: 3px;
   bottom: -2px;
   left: 0;
-  background-color: #D12B25;
+  background-color: #d12b25;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -87,27 +79,27 @@ body {
 #botao-cabecalho {
   border-radius: 5px;
   color: white;
-  background-color: #D12B25;
+  background-color: #d12b25;
   padding: 15px 20px;
 }
 
-.botao-contato{
+.botao-contato {
   text-align: center;
   align-items: center;
   text-decoration: none;
   font-weight: bold;
   border-radius: 5px;
   color: white;
-  background-color: #D12B25;
+  background-color: #d12b25;
   padding: 10px 20px;
-  box-shadow: 0px 0px 0px 0px #D12B25;
+  box-shadow: 0px 0px 0px 0px #d12b25;
   transition: 300ms ease-in-out;
 }
 
 .botao-contato:hover {
   background-color: #e64035;
-  color: #D12B25;
-  box-shadow: 0px 2px 10px 2px #D12B25;
+  color: #d12b25;
+  box-shadow: 0px 2px 10px 2px #d12b25;
   transition: 300ms ease-in-out;
 }
 
@@ -121,7 +113,7 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 920px){
+@media (max-width: 920px) {
   .nav-container {
     position: relative;
   }
@@ -129,7 +121,7 @@ body {
   .carousel {
     margin-top: -75px;
   }
- 
+
   .link-nav {
     display: none;
   }
@@ -143,7 +135,7 @@ body {
   }
 
   .menu-btn {
-    background-color:transparent;
+    background-color: transparent;
     border: none;
     cursor: pointer;
     padding-right: 10px;
@@ -171,8 +163,8 @@ body {
 
   .botao-contato:hover {
     background-color: #e64035;
-    color: #D12B25;
-    box-shadow: 0px 5px 20px 5px #D12B25;
+    color: #d12b25;
+    box-shadow: 0px 5px 20px 5px #d12b25;
     transition: 300ms ease-in-out;
   }
 
@@ -181,56 +173,49 @@ body {
   }
 }
 
-/* **** ORGANIZAO TEXTOS **** */ 
+/* **** ORGANIZAO TEXTOS **** */
 
-.conteudo h2, h3, p{
-  font-family: 'Merriweather', serif;
+.conteudo h2,
+h3,
+p {
+  font-family: "Merriweather", serif;
 }
 
-.conteudo h2{
+.conteudo h2 {
   font-weight: 700;
   font-size: 28px;
-
 }
 
-.conteudo h3{
+.conteudo h3 {
   font-weight: 700;
   font-size: 18px;
-
-
 }
 
-.conteudo h4{
+.conteudo h4 {
   font-weight: 700;
   font-size: 16px;
-
-
 }
 
-.conteudo p{
+.conteudo p {
   font-weight: 300;
   font-size: 14px;
-
 }
 
 /* Sobre a Empresa */
 .container-sobre {
-  background: rgb(87,113,246);
-  background: radial-gradient(circle, rgb(72, 98, 226) 1%, rgb(13, 5, 78) 98%, rgba(27,12,129,1) 100%);
   display: grid;
   grid-template-columns: 500px 400px;
   justify-content: center;
-  margin-top: 1%;
 }
 
-.container-img img{
+.container-img img {
   width: 400px;
   padding: 10px;
   border-radius: 15%;
 }
 
 .sobre-empresa {
-  color: white;
+  color: black;
   font-size: 24px;
   display: flex;
   flex-direction: column;
@@ -239,31 +224,25 @@ body {
   margin-left: -80px;
 }
 
-.sobre-empresa p {
-
-}
-
 .titulo-sobre {
   font-weight: 900;
   padding-bottom: 15px;
   font-size: clamp(2rem, 4vw, 10rem);
-  font-family: 'Merriweather', serif;
-
+  font-family: "Merriweather", serif;
 }
 
 .sobre-help {
   text-decoration: none;
-  color: #27b115;
+  color: #050374;
   font-weight: 600;
   font-size: clamp(1rem, 2.5vw, 1.5rem);
-
 }
 
 .sobre-help:hover {
   color: #e64035;
 }
 
-@media (max-width: 920px){
+@media (max-width: 920px) {
   .container-sobre {
     display: flex;
     flex-direction: column;
@@ -271,104 +250,106 @@ body {
     justify-content: center;
   }
 
-  .container-sobre p, .titulo-sobre, .sobre-help {
+  .container-sobre p,
+  .titulo-sobre,
+  .sobre-help {
     margin-left: 80px;
   }
 }
-/* **** SECTION PRODUTOS **** */ 
+/* **** SECTION PRODUTOS **** */
 
-
-#conteudo-produtos{
-background: rgb(87,113,246);
-background: radial-gradient(circle, rgb(222, 223, 231) 1%, rgb(245, 244, 253) 98%, rgb(255, 255, 255) 100%);
-color: rgb(26, 25, 25);
-border-radius: 10px;
-padding: 2% 2% ;
-margin: 1% 0 ;
+#conteudo-produtos {
+  background: rgb(87, 113, 246);
+  background: radial-gradient(
+    circle,
+    rgb(222, 223, 231) 1%,
+    rgb(245, 244, 253) 98%,
+    rgb(255, 255, 255) 100%
+  );
+  color: rgb(26, 25, 25);
+  border-radius: 10px;
+  padding: 2% 2%;
 }
 
-.conteudo-servico-titulos p{
+.conteudo-servico-titulos p {
   font-weight: 500;
   padding: 0 60px 0 60px;
 }
 
-.img-teste{
+.img-teste {
   width: 100%;
   aspect-ratio: 3/2;
   object-fit: contain;
 }
 
-
-/* **** SECTION SERVIÇOS **** */ 
-#conteudo-servico{
-  background: rgb(87,113,246);
-  background: radial-gradient(circle, rgb(72, 98, 226) 1%, rgb(13, 5, 78) 98%, rgba(27,12,129,1) 100%);
+/* **** SECTION SERVIÇOS **** */
+#conteudo-servico {
+  background: rgb(87, 113, 246);
+  background: radial-gradient(
+    circle,
+    rgb(72, 98, 226) 1%,
+    rgb(13, 5, 78) 98%,
+    rgba(27, 12, 129, 1) 100%
+  );
   color: white;
   border-radius: 2px;
-  padding: 2% 2% ;
-  margin: 1% 0 ;
-
-  
+  padding: 2% 2%;
 }
 
-#conteudo-servico .paragrafo{
+#conteudo-servico .paragrafo {
   font-weight: 500;
   padding: 0 60px 0 60px;
 }
 
-.posicao-cards{
- gap: 10px;
- justify-content: center;
- padding: 1%;
+.posicao-cards {
+  gap: 10px;
+  justify-content: center;
+  padding: 1%;
 }
 
-
-
-
-mark{
+mark {
   background-color: rgb(36, 0, 134);
   color: #fffafa;
 }
 
-mark:hover{
+mark:hover {
   background-color: rgb(255, 255, 255);
   color: #050374;
 }
 
+/* **** SECTION EMPRESAS PARCEIRAS **** */
 
-
-
-/* **** SECTION EMPRESAS PARCEIRAS **** */ 
-
-#conteudo-clientes{
-background: rgb(87,113,246);
-background: radial-gradient(circle, rgb(222, 223, 231) 1%, rgb(245, 244, 253) 98%, rgb(255, 255, 255) 100%);
-color: rgb(26, 25, 25);
-border-radius: 10px;
-padding: 2% 2% ;
-margin: 1% 0 ;
+#conteudo-clientes {
+  background: rgb(87, 113, 246);
+  background: radial-gradient(
+    circle,
+    rgb(222, 223, 231) 1%,
+    rgb(245, 244, 253) 98%,
+    rgb(255, 255, 255) 100%
+  );
+  color: rgb(26, 25, 25);
+  border-radius: 10px;
+  padding: 2% 2%;
 }
 
-.paragrafo{
+.paragrafo {
   font-weight: 500;
   padding: 0 60px 0 60px;
   text-align: justify;
 }
 
-#conteudo-clientes img{
+#conteudo-clientes img {
   width: 10%;
-  
 }
 
+/* **** SECTION CLIENTES **** */
 
-/* **** SECTION CLIENTES **** */ 
-
-#conteudo-avaliacoes{
+#conteudo-avaliacoes {
   display: flex;
   flex-direction: column;
 }
 
-.clientes{
+.clientes {
   width: 400px;
   height: 170px;
   border-radius: 5%;
@@ -379,36 +360,39 @@ margin: 1% 0 ;
   user-select: none;
 }
 
-.clientes img{
+.clientes img {
   width: 60px;
   height: 60px;
   border-radius: 50%;
   margin-top: -90px;
 }
 
-.clientes h2{
+.clientes h2 {
   margin-left: 18%;
   margin-top: 1%;
   font-size: 20px;
 }
 
-.clientes h3{
+.clientes h3 {
   margin-left: 18%;
   margin-top: -2%;
   font-size: 15px;
 }
 
-
-
-/* **** SECTION RODAPÉ **** */ 
+/* **** SECTION RODAPÉ **** */
 footer {
   width: 100%;
-  background: rgb(87,113,246);
-  background: radial-gradient(circle, rgb(72, 98, 226) 1%, rgb(13, 5, 78) 98%, rgba(27,12,129,1) 100%);
+  background: rgb(87, 113, 246);
+  background: radial-gradient(
+    circle,
+    rgb(72, 98, 226) 1%,
+    rgb(13, 5, 78) 98%,
+    rgba(27, 12, 129, 1) 100%
+  );
   color: antiquewhite;
 }
 
-#maps iframe{
+#maps iframe {
   border-radius: 5px;
   width: 450px;
   height: 200px;
@@ -432,10 +416,10 @@ footer {
 }
 
 .rodape-navegacao a:hover {
-  color: #D12B25;
+  color: #d12b25;
 }
 
-.rodape-texto p{
+.rodape-texto p {
   text-align: center;
   font-weight: bolder;
 }
@@ -489,4 +473,3 @@ footer {
     width: 100%;
   }
 }
-

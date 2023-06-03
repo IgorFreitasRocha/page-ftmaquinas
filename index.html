@@ -16,34 +16,36 @@
 
 <body>
     <!-- Menu principal -->
-    <div class="container">
+    
         <header>
-            <nav class="nav-container container">
-                    <div class="logo-ftmaquinas">
-                        <a href="#"><img src="assets/img/iimg-logo/ft-maquinas.png" alt="Logo da Empresa"></a>
-                    </div>
-                    <ul class="nav-menu">
-                        <li><a href="#" class="link-nav">Início</a></li>
+            <div class="container">
+                <nav class="nav-container container">
+                        <div class="logo-ftmaquinas">
+                            <a href="#"><img src="assets/img/iimg-logo/ft-maquinas.png" alt="Logo da Empresa"></a>
+                        </div>
+                        <ul class="nav-menu">
+                            <li><a href="#" class="link-nav">Início</a></li>
+                            <li><a href="#conteudo-produtos" class="link-nav">Produtos</a></li>
+                            <li><a href="#conteudo-servico" class="link-nav">Serviços</a></li>
+                            <li><a href="#conteudo-clientes" class="link-nav">Clientes</a></li>
+                            <li><a href="#conteudo-avaliacoes" class="link-nav">Avaliações</a></li>
+                            <li><a id="botao-cabecalho" class="botao-contato" href="#footer">CONTATO</a></li>
+                        </ul>
+                        <div class="menu-btn">
+                            <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+                        </div>
+                </nav>
+
+                <div class="mobile-menu">
+                    <ul>
+                        <li><a href="/" class="link-nav">Início</a></li>
                         <li><a href="#conteudo-produtos" class="link-nav">Produtos</a></li>
                         <li><a href="#conteudo-servico" class="link-nav">Serviços</a></li>
                         <li><a href="#conteudo-clientes" class="link-nav">Clientes</a></li>
                         <li><a href="#conteudo-avaliacoes" class="link-nav">Avaliações</a></li>
                         <li><a id="botao-cabecalho" class="botao-contato" href="#">CONTATO</a></li>
                     </ul>
-                    <div class="menu-btn">
-                        <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
-                    </div>
-            </nav>
-
-            <div class="mobile-menu">
-                <ul>
-                    <li><a href="/" class="link-nav">Início</a></li>
-                    <li><a href="#conteudo-produtos" class="link-nav">Produtos</a></li>
-                    <li><a href="#conteudo-servico" class="link-nav">Serviços</a></li>
-                    <li><a href="#conteudo-clientes" class="link-nav">Clientes</a></li>
-                    <li><a href="#conteudo-avaliacoes" class="link-nav">Avaliações</a></li>
-                    <li><a id="botao-cabecalho" class="botao-contato" href="#">CONTATO</a></li>
-                </ul>
+                </div>
             </div>
         </header>
         <!-- podemos fazer aquela barra abaixo do nav, mostrando uma barrinha aumentando conforme o usuário rola o scroll
@@ -51,7 +53,6 @@
 
 
         <main class="conteudo">
-
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -84,116 +85,119 @@
             <!-- SOBRE A EMPRESA -->
 
             <section>
-                <div class="container-sobre">
-                    <div class="sobre-empresa">
-                        <h1 class="titulo-sobre">FT Maquinas</h1>
-                        <p class="paragrafo p">A <strong>FT</strong> Máquinas é uma empresa especializada em
-                            serviços de <strong>usinagem, torno CNC,
-                                torno mecânico e fresa</strong>, oferecendo soluções de alta qualidade e precisão para
-                            atender às
-                            necessidades de diferentes setores industriais. A empresa conta com uma equipe de profissionais
-                            altamente qualificados para garantir a produção de peças com acabamentos impecáveis.
-                        </p>
-                        <div>
-                            <a href="#" class="sobre-help">Obter a ajuda que você precisa</a>
+                <div class="container">
+                    <div class="container-sobre">
+                        <div class="sobre-empresa">
+                            <h1 class="titulo-sobre">FT Maquinas</h1>
+                            <p class="paragrafo p">A <strong>FT</strong> Máquinas é uma empresa especializada em
+                                serviços de <strong>usinagem, torno CNC,
+                                    torno mecânico e fresa</strong>, oferecendo soluções de alta qualidade e precisão para
+                                atender às
+                                necessidades de diferentes setores industriais. A empresa conta com uma equipe de profissionais
+                                altamente qualificados para garantir a produção de peças com acabamentos impecáveis.
+                            </p>
+                            <div>
+                                <a href="#" class="sobre-help">Obter a ajuda que você precisa</a>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="container-img">
-                        <img src="assets/img/iimg-logo/sobre-ftmaquinas.png" alt="">
+                        <div class="container-img">
+                            <img src="assets/img/iimg-logo/sobre-ftmaquinas.png" alt="">
+                        </div>
                     </div>
                 </div>
             </section>
 
             <!-- Produto -->
             <section id="conteudo-produtos">
+                <div class="container">
+                    <div class="conteudo-servico-titulos text-center">
+                        <h2>Produtos</h2>
+                        <p class="paragrafo p"> A FT Máquinas é uma empresa especializada em serviços de usinagem, oferecendo torno CNC, torno mecânico e fresa de alta qualidade. Com uma equipe qualificada e uma lista de parceiros renomados, garantimos a produção de peças impecáveis, com acabamentos precisos e superioridade em qualidade. Nossos produtos são reconhecidos por sua excelência e confiabilidade, atendendo às exigências do mercado de forma eficiente e rápida.</p>
+                    </div>
 
-                <div class="conteudo-servico-titulos text-center">
-                    <h2>Produtos</h2>
-                    <p class="paragrafo p"> A FT Máquinas é uma empresa especializada em serviços de usinagem, oferecendo torno CNC, torno mecânico e fresa de alta qualidade. Com uma equipe qualificada e uma lista de parceiros renomados, garantimos a produção de peças impecáveis, com acabamentos precisos e superioridade em qualidade. Nossos produtos são reconhecidos por sua excelência e confiabilidade, atendendo às exigências do mercado de forma eficiente e rápida.</p>
+                    <div class="posicao-cards row">
+                        <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
+                            <img src="assets/img/img-maquinas/maquinaTH.jpg" class="card-img-top img-teste"
+                                alt="Máquina para teste hidrostático">
+                            <div class="card-body">
+                                <h5 class="card-title">Máquina para teste hidrostático</h5>
+                                <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                            </div>
+                        </div>
+                        <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
+                            <img src="assets/img/img-maquinas/maquinaEmpatar.jpg" class="card-img-top img-teste"
+                                alt="Máquina de empatar mangueiras">
+                            <div class="card-body">
+                                <h5 class="card-title">Máquina de empatar mangueiras</h5>
+                                <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                            </div>
+                        </div>
+                        <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
+                            <img src="assets/img/img-maquinas/maquinaEnrolador.jpg" class="card-img-top img-teste"
+                                alt="Enrolador elétrico de mangueiras">
+                            <div class="card-body">
+                                <h5 class="card-title">Enrolador elétrico de mangueiras</h5>
+                                <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                            </div>
+                        </div>
+                        <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
+                            <img src="assets/img/img-maquinas/img-peças-1.png" class="card-img-top img-teste"
+                                alt="Máquina para teste hidrostático">
+                            <div class="card-body">
+                                <h5 class="card-title">Peça 1</h5>
+                                <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                            </div>
+                        </div>
+                        <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
+                            <img src="assets/img/img-maquinas/img-peças-2.jpg" class="card-img-top img-teste"
+                                alt="Máquina para teste hidrostático">
+                            <div class="card-body">
+                                <h5 class="card-title">Peça 2</h5>
+                                <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                            </div>
+                        </div>
+                        <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
+                            <img src="assets/img/img-maquinas/img-peças-3.jpeg" class="card-img-top img-teste"
+                                alt="Máquina para teste hidrostático">
+                            <div class="card-body">
+                                <h5 class="card-title">Peça 2</h5>
+                                <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                            </div>
+                        </div>
+                        <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
+                            <img src="assets/img/img-maquinas/img-peças-4.jpeg" class="card-img-top img-teste"
+                                alt="Máquina para teste hidrostático">
+                            <div class="card-body">
+                                <h5 class="card-title">Peça 2</h5>
+                                <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                            </div>
+                        </div>
+                        <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
+                            <img src="assets/img/img-maquinas/img-peças-5.jpeg" class="card-img-top img-teste"
+                                alt="Máquina para teste hidrostático">
+                            <div class="card-body">
+                                <h5 class="card-title">Peça 2</h5>
+                                <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="posicao-cards row">
-                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
-                        <img src="assets/img/img-maquinas/maquinaTH.jpg" class="card-img-top img-teste"
-                            alt="Máquina para teste hidrostático">
-                        <div class="card-body">
-                            <h5 class="card-title">Máquina para teste hidrostático</h5>
-                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                        </div>
-                    </div>
-                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
-                        <img src="assets/img/img-maquinas/maquinaEmpatar.jpg" class="card-img-top img-teste"
-                            alt="Máquina de empatar mangueiras">
-                        <div class="card-body">
-                            <h5 class="card-title">Máquina de empatar mangueiras</h5>
-                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                        </div>
-                    </div>
-                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
-                        <img src="assets/img/img-maquinas/maquinaEnrolador.jpg" class="card-img-top img-teste"
-                            alt="Enrolador elétrico de mangueiras">
-                        <div class="card-body">
-                            <h5 class="card-title">Enrolador elétrico de mangueiras</h5>
-                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                        </div>
-                    </div>
-                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
-                        <img src="assets/img/img-maquinas/img-peças-1.png" class="card-img-top img-teste"
-                            alt="Máquina para teste hidrostático">
-                        <div class="card-body">
-                            <h5 class="card-title">Peça 1</h5>
-                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                        </div>
-                    </div>
-                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
-                        <img src="assets/img/img-maquinas/img-peças-2.jpg" class="card-img-top img-teste"
-                            alt="Máquina para teste hidrostático">
-                        <div class="card-body">
-                            <h5 class="card-title">Peça 2</h5>
-                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                        </div>
-                    </div>
-                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
-                        <img src="assets/img/img-maquinas/img-peças-3.jpeg" class="card-img-top img-teste"
-                            alt="Máquina para teste hidrostático">
-                        <div class="card-body">
-                            <h5 class="card-title">Peça 2</h5>
-                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                        </div>
-                    </div>
-                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
-                        <img src="assets/img/img-maquinas/img-peças-4.jpeg" class="card-img-top img-teste"
-                            alt="Máquina para teste hidrostático">
-                        <div class="card-body">
-                            <h5 class="card-title">Peça 2</h5>
-                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                        </div>
-                    </div>
-                    <div class="card  col-12 col-md-8 col-lg-6 col-xl-4 col-xxl-3" style="width: 18rem;">
-                        <img src="assets/img/img-maquinas/img-peças-5.jpeg" class="card-img-top img-teste"
-                            alt="Máquina para teste hidrostático">
-                        <div class="card-body">
-                            <h5 class="card-title">Peça 2</h5>
-                            <a href="#" class="btn btn-primary">Solicitar Orçamento</a>
-                        </div>
-                    </div>
-                </div>
-
             </section>
 
 
             <!-- Serviços -->
             <section id="conteudo-servico">
-                <div class="conteudo-servico-titulos text-center">
-                    <h2>Serviço que oferecemos</h2>
-                    <p class="paragrafo p"> A FT Máquinas é uma empresa especializada em serviços de usinagem, torno CNC, torno mecânico e fresa. Com uma extensa lista de parceiros, a empresa é reconhecida por sua excelência na produção de peças impecáveis, com acabamentos precisos e qualidade superior. Nossos serviços atendem às exigências do mercado de forma eficiente e rápida, garantindo alta qualidade e precisão em cada projeto.
-                    </p>
-                </div>
+                <div class="container">
+                    <div class="conteudo-servico-titulos text-center">
+                        <h2>Serviço que oferecemos</h2>
+                        <p class="paragrafo p"> A FT Máquinas é uma empresa especializada em serviços de usinagem, torno CNC, torno mecânico e fresa. Com uma extensa lista de parceiros, a empresa é reconhecida por sua excelência na produção de peças impecáveis, com acabamentos precisos e qualidade superior. Nossos serviços atendem às exigências do mercado de forma eficiente e rápida, garantindo alta qualidade e precisão em cada projeto.
+                        </p>
+                    </div>
 
 
 
-                <div class="posicao-cards row">
+                    <div class="posicao-cards row">
 
                     <div class="row row-cols-1 row-cols-md-3 g-4">
                         <div class="col">
@@ -231,7 +235,7 @@
                                 </div>
                             </div>
                         </div>
-
+                    </div>
             </section>
 
             <!-- Clientes/Empresas parceiras -->
@@ -277,7 +281,7 @@
         </main>
 
         <!-- Rodapé-->
-        <footer>
+        <footer id="footer">
             <div class="rodape">
                 <nav class="rodape-navegacao">
                     <p class="titulo-rodape">Navegação</p>
