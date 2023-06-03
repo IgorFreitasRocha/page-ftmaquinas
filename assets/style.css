@@ -286,7 +286,6 @@ margin: 1% 0 ;
 }
 
 .conteudo-servico-titulos p{
-  text-align: center;
   font-weight: 500;
   padding: 0 60px 0 60px;
 }
@@ -311,7 +310,6 @@ margin: 1% 0 ;
 }
 
 #conteudo-servico .paragrafo{
-  text-align: center;
   font-weight: 500;
   padding: 0 60px 0 60px;
 }
