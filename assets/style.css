@@ -51,7 +51,7 @@ body {
   height: 3px;
   bottom: -2px;
   left: 0;
-  background-color: #d12b25;
+  background-color: #1d4095;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -63,7 +63,7 @@ body {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
-  color: #e64035;
+  color: #274ea7;
 }
 
 .link-nav {
@@ -79,7 +79,7 @@ body {
 #botao-cabecalho {
   border-radius: 5px;
   color: white;
-  background-color: #d12b25;
+  background-color: #1d4095;
   padding: 15px 20px;
 }
 
@@ -90,16 +90,15 @@ body {
   font-weight: bold;
   border-radius: 5px;
   color: white;
-  background-color: #d12b25;
+  background-color: #1d4095;
   padding: 10px 20px;
-  box-shadow: 0px 0px 0px 0px #d12b25;
+  box-shadow: 0px 0px 0px 0px #1d4095;
   transition: 300ms ease-in-out;
 }
 
 .botao-contato:hover {
-  background-color: #e64035;
-  color: #d12b25;
-  box-shadow: 0px 2px 10px 2px #d12b25;
+  background-color: #274ea7;
+  box-shadow: 0px 2px 10px 2px #1d4095;
   transition: 300ms ease-in-out;
 }
 
@@ -233,13 +232,13 @@ p {
 
 .sobre-help {
   text-decoration: none;
-  color: #050374;
+  color: #1d4095;
   font-weight: 600;
   font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
 .sobre-help:hover {
-  color: #e64035;
+  color: #274ea7;
 }
 
 @media (max-width: 920px) {
@@ -416,7 +415,7 @@ footer {
 }
 
 .rodape-navegacao a:hover {
-  color: #d12b25;
+  color: #274ea7;
 }
 
 .rodape-texto p {
@@ -434,13 +433,6 @@ footer {
   display: flex;
   gap: 10px;
   margin-bottom: 10px;
-}
-
-#botao-rodape {
-  text-decoration: none;
-  display: block;
-  padding: 10px 20px;
-  color: white;
 }
 
 .item-rede-social i {
