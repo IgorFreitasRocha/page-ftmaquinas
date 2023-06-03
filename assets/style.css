@@ -247,6 +247,8 @@ body {
   font-weight: 900;
   padding-bottom: 15px;
   font-size: clamp(2rem, 4vw, 10rem);
+  font-family: 'Merriweather', serif;
+
 }
 
 .sobre-help {
