@@ -296,6 +296,10 @@ p {
   padding: 2% 2%;
 }
 
+.posicao-cards {
+  gap: 10px;
+  justify-content: center;
+}
 
 /* **** SECTION EMPRESAS PARCEIRAS **** */
 
