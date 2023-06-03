@@ -283,13 +283,7 @@ p {
 
 /* **** SECTION SERVIÇOS **** */
 #conteudo-servico {
-  background: rgb(87, 113, 246);
-  background: radial-gradient(
-    circle,
-    rgb(72, 98, 226) 1%,
-    rgb(13, 5, 78) 98%,
-    rgba(27, 12, 129, 1) 100%
-  );
+  background: #1d4095;
   color: white;
   border-radius: 2px;
   padding: 2% 2%;
@@ -381,13 +375,7 @@ mark:hover {
 /* **** SECTION RODAPÉ **** */
 footer {
   width: 100%;
-  background: rgb(87, 113, 246);
-  background: radial-gradient(
-    circle,
-    rgb(72, 98, 226) 1%,
-    rgb(13, 5, 78) 98%,
-    rgba(27, 12, 129, 1) 100%
-  );
+  background: #1d4095;
   color: antiquewhite;
 }
 
