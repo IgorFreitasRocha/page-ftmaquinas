@@ -221,6 +221,7 @@ body {
   display: grid;
   grid-template-columns: 500px 400px;
   justify-content: center;
+  margin-top: 1%;
 }
 
 .container-img img{
