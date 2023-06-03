@@ -210,7 +210,6 @@ body {
 .conteudo p{
   font-weight: 300;
   font-size: 14px;
-  text-align: justify;
 
 }
 
@@ -241,8 +240,7 @@ body {
 }
 
 .sobre-empresa p {
-  text-align: center;
-  font-weight: 500;
+
 }
 
 .titulo-sobre {
