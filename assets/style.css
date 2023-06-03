@@ -6,6 +6,12 @@
 } */
 
 /* **** SECTION TOPO CAROUSEL **** */ 
+
+body {
+  scroll-behavior: smooth;
+}
+
+
 .carousel{
   width: 100%;
 }
@@ -249,6 +255,7 @@
   color: #D12B25;
   font-weight: 600;
   font-size: clamp(1rem, 2.5vw, 1.5rem);
+
 }
 
 .sobre-help:hover {
