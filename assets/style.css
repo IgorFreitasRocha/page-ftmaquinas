@@ -298,7 +298,6 @@ p {
 /* **** SECTION EMPRESAS PARCEIRAS **** */
 
 #conteudo-clientes {
-  background: rgb(87, 113, 246);
   background: radial-gradient(
     circle,
     rgb(222, 223, 231) 1%,
@@ -306,7 +305,6 @@ p {
     rgb(255, 255, 255) 100%
   );
   color: rgb(26, 25, 25);
-  border-radius: 10px;
   padding: 2% 2%;
 }
 
@@ -317,7 +315,9 @@ p {
 }
 
 #conteudo-clientes img {
-  width: 10%;
+  width: 20%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 }
 
 /* **** SECTION CLIENTES **** */
