@@ -282,6 +282,7 @@ p {
 }
 
 /* **** SECTION SERVIÇOS **** */
+
 #conteudo-servico {
   background: rgb(87, 113, 246);
   background: radial-gradient(
@@ -295,26 +296,6 @@ p {
   padding: 2% 2%;
 }
 
-#conteudo-servico .paragrafo {
-  font-weight: 500;
-  padding: 0 60px 0 60px;
-}
-
-.posicao-cards {
-  gap: 10px;
-  justify-content: center;
-  padding: 1%;
-}
-
-mark {
-  background-color: rgb(36, 0, 134);
-  color: #fffafa;
-}
-
-mark:hover {
-  background-color: rgb(255, 255, 255);
-  color: #050374;
-}
 
 /* **** SECTION EMPRESAS PARCEIRAS **** */
 
