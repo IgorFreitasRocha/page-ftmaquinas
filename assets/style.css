@@ -422,7 +422,7 @@ footer {
 
 #btnWpp {
   position: fixed;
-  bottom: 50px;
+  bottom: 20px;
   right: 30px;
   width: 30px;
   border-radius: 50%;
@@ -431,7 +431,7 @@ footer {
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: black;
+  background-color: white;
 }
 
 .tamanho i {
