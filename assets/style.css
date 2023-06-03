@@ -107,7 +107,7 @@ body {
 .botao-contato:hover {
   background-color: #e64035;
   color: #D12B25;
-  box-shadow: 0px 5px 20px 5px #D12B25;
+  box-shadow: 0px 2px 10px 2px #D12B25;
   transition: 300ms ease-in-out;
 }
 
