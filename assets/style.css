@@ -292,7 +292,7 @@ p {
 
 .posicao-cards {
   gap: 10px;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 /* **** SECTION EMPRESAS PARCEIRAS **** */
