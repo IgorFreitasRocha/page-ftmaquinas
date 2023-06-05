@@ -137,7 +137,6 @@ body {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    padding-right: 10px;
   }
 
   .mobile-menu ul {
@@ -158,13 +157,6 @@ body {
     display: block;
     padding: 10px 20px;
     margin-top: 10px;
-  }
-
-  .botao-contato:hover {
-    background-color: #e64035;
-    color: #d12b25;
-    box-shadow: 0px 5px 20px 5px #d12b25;
-    transition: 300ms ease-in-out;
   }
 
   .open {
@@ -355,6 +347,18 @@ p {
   margin-left: 18%;
   margin-top: -2%;
   font-size: 15px;
+}
+
+@media (max-width: 920px) {
+  #conteudo-clientes img{
+    display: block;
+    margin-bottom: 70px;
+    height: 200px;
+  }
+
+  conteudo-servico-titulos{
+
+  }
 }
 
 /* **** SECTION RODAPÉ **** */
