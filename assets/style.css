@@ -325,6 +325,10 @@ p {
   margin-top: 30px;
 }
 
+#depoimentoUm h2, h3{
+  margin-top: 8%;
+}
+
 .clientes {
   width: 450px;
   height: 190px;
@@ -367,6 +371,10 @@ p {
   }
 
   #depoimentoDois {
+    margin: 0 0 10% 0;
+  }
+
+  #depoimentoUm {
     margin: 0 0 10% 0;
   }
 
