@@ -328,7 +328,6 @@ p {
   box-shadow: 3px 2px 2px 3px #e0dfdf;
   cursor: pointer;
   user-select: none;
-  display: flex;
 }
 
 .clientes img {
@@ -356,6 +355,14 @@ p {
     margin-bottom: 70px;
     height: 200px;
   }
+}
+
+#depoimentoUm{
+float: left;
+}
+
+#depoimentoDois{
+float: right;
 }
 
 /* **** SECTION RODAPÉ **** */
