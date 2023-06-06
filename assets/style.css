@@ -354,7 +354,6 @@ p {
 
 #conteudo-avaliacoes {
   display: flex;
-  flex-direction: column;
 }
 
 /* **** SECTION RODAPÉ **** */
