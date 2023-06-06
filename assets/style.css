@@ -314,17 +314,19 @@ p {
 
 /* **** SECTION CLIENTES **** */
 
-#conteudo-avaliacoes{
+.avaliacoes {
     display: flex;
-    margin: 0% 0% 0% 22%;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
 }
 
-#depoimentoDois{
-    margin-left: 10%;
+.conteudo-servico-titulos {
+  margin-top: 30px;
 }
 
 .clientes {
-  width: 400px;
+  width: 450px;
   height: 190px;
   border-radius: 5%;
   margin: 2%;
@@ -356,8 +358,35 @@ p {
 @media (max-width: 920px) {
   #conteudo-clientes img{
     display: block;
-    margin-bottom: 70px;
     height: 200px;
+  }
+
+  .avaliacoes {
+    display: block;
+    margin: 15%;
+  }
+
+  #depoimentoDois {
+    margin: 0 0 10% 0;
+  }
+
+  .clientes {
+    width: 280px;
+    height: 280px;
+    border-radius: 5%;
+    padding: 20px;
+    margin: 25%;
+  }
+  
+  .clientes h2 {
+    margin-left: 25%;
+    margin-top: 1%;
+    font-size: 20px;
+  }
+  
+  .clientes h3 {
+    margin-left: 25%;
+    font-size: 15px;
   }
 }
 
