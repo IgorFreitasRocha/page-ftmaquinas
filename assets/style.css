@@ -314,6 +314,10 @@ p {
 
 /* **** SECTION CLIENTES **** */
 
+#conteudo-avaliacoes{
+    display: flex;
+}
+
 .clientes {
   width: 400px;
   height: 190px;
@@ -350,10 +354,6 @@ p {
     margin-bottom: 70px;
     height: 200px;
   }
-}
-
-#conteudo-avaliacoes {
-  display: flex;
 }
 
 /* **** SECTION RODAPÉ **** */
