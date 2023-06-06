@@ -376,14 +376,19 @@ p {
 
   #depoimentoUm {
     margin: 0 0 10% 0;
+    height: 210px;
   }
 
   .clientes {
     width: 280px;
-    height: 280px;
+    height: 260px;
     border-radius: 5%;
     padding: 20px;
     margin: 25%;
+  }
+
+  .clientes img {
+    margin-bottom: 15px;
   }
   
   .clientes h2 {
