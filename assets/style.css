@@ -316,6 +316,11 @@ p {
 
 #conteudo-avaliacoes{
     display: flex;
+    margin: 0% 0% 0% 22%;
+}
+
+#depoimentoDois{
+    margin-left: 10%;
 }
 
 .clientes {
