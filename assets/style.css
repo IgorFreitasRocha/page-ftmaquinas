@@ -314,11 +314,6 @@ p {
 
 /* **** SECTION CLIENTES **** */
 
-#conteudo-avaliacoes {
-  display: flex;
-  flex-direction: column;
-}
-
 .clientes {
   width: 400px;
   height: 190px;
@@ -357,12 +352,9 @@ p {
   }
 }
 
-#depoimentoUm{
-float: left;
-}
-
-#depoimentoDois{
-float: right;
+#conteudo-avaliacoes {
+  display: flex;
+  flex-direction: column;
 }
 
 /* **** SECTION RODAPÉ **** */
