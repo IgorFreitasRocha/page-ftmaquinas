@@ -19,17 +19,18 @@ body {
 }
 
 /* **** SECTION CABEÇALHO **** */
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header {
   position: fixed;
+  width: 100%;
   z-index: 2;
   background: rgba(255, 255, 255, 1);
 }
 
-.logo-ftmaquinas {
-  margin: 0 0 0 -25px;
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 1);
 }
 
 .nav-menu {
