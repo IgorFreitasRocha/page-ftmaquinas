@@ -117,11 +117,7 @@ header {
   .nav-container {
     position: relative;
   }
-
-  .carousel {
-    margin-top: -75px;
-  }
-
+  
   .link-nav {
     display: none;
   }
