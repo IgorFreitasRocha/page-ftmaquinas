@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 /* header, main{
   margin: 1% 10%;
@@ -8,6 +8,7 @@
 
 body {
   scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
 }
 
 .carousel {
@@ -162,13 +163,6 @@ header {
 }
 
 /* **** ORGANIZAO TEXTOS **** */
-
-.conteudo h2,
-h3,
-p {
-  font-family: "Merriweather", serif;
-}
-
 .conteudo h2 {
   font-weight: 700;
   font-size: 28px;
@@ -216,7 +210,6 @@ p {
   font-weight: 900;
   padding-bottom: 15px;
   font-size: clamp(2rem, 4vw, 10rem);
-  font-family: "Merriweather", serif;
 }
 
 .sobre-help {
